@@ -36,6 +36,8 @@ nav li {
     background: rgba(255, 144, 14, 0.1);
 }
 
+/* banner styles */
+
 .banner {
     text-align: center;
 }
@@ -73,6 +75,7 @@ nav li {
 }
 
 /* feature styles */
+
 .feature {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -336,10 +339,6 @@ nav li {
     padding-top: 20px;
 }
 
-.hide {
-    display: none;
-}
-
 
 /* responsive styles */
 @media screen and (max-width: 576px) {
@@ -420,21 +419,24 @@ nav li {
     .extra-feature {
         padding: 0px;
     }
-    .extra-feature-image img{
+
+    .extra-feature-image img {
         max-width: 100%;
         padding-top: 5px;
     }
-    .experience .experience-title{
+
+    .experience .experience-title {
         position: relative;
         left: 50px;
         top: 20px;
     }
+
     .facts-main {
         padding: 0px;
     }
 
     .facts-main .facts-title {
-     padding-left: 50px;   
+        padding-left: 50px;
     }
 
     .facts-main .facts-description {
