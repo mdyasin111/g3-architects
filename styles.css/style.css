@@ -173,6 +173,7 @@ nav li {
 
 .extra-feature-image img {
     padding-top: 20px;
+    width: 608px;
 }
 
 .experience-title {
@@ -413,55 +414,70 @@ nav li {
 
     .extra-features {
         grid-template-columns: repeat(1, 1fr);
+        padding: 5px 10px 5px 10px;
     }
 
     .extra-feature {
-        margin-right: 240px;
-        margin-left: -90px
-    }
-
-    .extra-feature-image img {
-        
-    }
-    .facts-main{
         padding: 0px;
     }
-    .facts-main .facts-title {
-        padding-left: 60px;
+    .extra-feature-image img{
+        max-width: 100%;
+        padding-top: 5px;
     }
-    .facts-main .facts-description{
+    .experience .experience-title{
+        position: relative;
+        left: 50px;
+        top: 20px;
+    }
+    .facts-main {
+        padding: 0px;
+    }
+
+    .facts-main .facts-title {
+     padding-left: 50px;   
+    }
+
+    .facts-main .facts-description {
         margin: 0px;
         padding: 1px 25px 20px 20px;
     }
-    .facts-icon{
+
+    .facts-icon {
         grid-template-columns: repeat(1, 1fr);
         padding: 0px;
         row-gap: 30px;
     }
-    .sponsor-title{
+
+    .sponsor-title {
         padding: 30px 1px 10px 40px;
         margin: 0px;
     }
-    .sponsor-description{
+
+    .sponsor-description {
         padding: 10px 10px 10px 35px;
         margin: 0px;
     }
-    .sponsors-icon{
+
+    .sponsors-icon {
         grid-template-columns: repeat(1, 1fr);
         gap: 20px;
     }
-    .section-title{
+
+    .section-title {
         margin: 0px;
     }
-    .directors{
+
+    .directors {
         grid-template-columns: 1fr;
         padding-left: 60px;
         row-gap: 5px;
     }
-    .footer-section{
+
+    .footer-section {
         margin: 50px 10px;
     }
-    .footer-description{
+
+    .footer-description {
         margin: 0px;
         padding: 0px;
     }
